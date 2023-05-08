@@ -9,7 +9,7 @@ public class Training {
     LocalDate assignedDate;
     LocalDate completionDate;
     LocalDate dueDate;
-    int score;
+    double score;
 
  public Training(int empId, int courseId, LocalDate assignedDate,  LocalDate dueDate) {
   this.empId = empId;
